@@ -1,2 +1,2 @@
 # just-forms-core
-Core-lib mailny containing datastructure for just-foms lib by HexFourty
+Core-lib containing data structure for just-forms lib by HexFourty

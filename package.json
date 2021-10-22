@@ -1,7 +1,7 @@
 {
   "name": "@hexfourty/just-forms-core",
   "version": "1.0.0",
-  "description": "Core-lib mainly containing data structure for just-forms lib by hexfourty",
+  "description": "Core-lib containing data structure for just-forms lib by hexfourty",
   "main": "index.js",
   "scripts": {
     "test": "npm run test"
