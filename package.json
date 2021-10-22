@@ -1,0 +1,24 @@
+{
+  "name": "@hexfourty/just-forms-core",
+  "version": "1.0.0",
+  "description": "Core-lib mainly containing data structure for just-forms lib by hexfourty",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexfourty/just-forms-core.git"
+  },
+  "keywords": [
+    "forms",
+    "form-creator",
+    "questionnaire"
+  ],
+  "author": "HexFourty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hexfourty/just-forms-core/issues"
+  },
+  "homepage": "https://github.com/hexfourty/just-forms-core#readme"
+}
