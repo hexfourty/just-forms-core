@@ -1,1 +1,4 @@
-export const JustFormsCore = (dummyInput: string) => `Jo moin ${dummyInput}`;
+import { JustFormsCore } from './JustFormsCore';
+
+export default JustFormsCore;
+Object.assign(module.exports, JustFormsCore)

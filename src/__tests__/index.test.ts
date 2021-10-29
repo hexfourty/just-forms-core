@@ -1,5 +1,5 @@
-import { JustFormsCore } from '../index';
+import { JustFormsCore } from '../JustFormsCore';
 
 test('Index greeter', () => {
-  expect(JustFormsCore('HexFourty')).toEqual('Jo moin HexFourty');
+  expect(JustFormsCore.greet('HexFourty')).toEqual('Jo moin HexFourty');
 });

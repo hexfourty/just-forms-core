@@ -2,10 +2,11 @@
   "name": "@hexfourty/just-forms-core",
   "version": "1.0.2",
   "description": "Core-lib containing data structure for just-forms lib by HexFourty",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
+    "test-build": "npm run build && node test-build.js",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
