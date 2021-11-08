@@ -9,7 +9,8 @@ export function getStubQuestionnaire(): JfQuestionnaire {
 }
 
 export function addSection(questionnaire: JfQuestionnaire, section: JfSection) {
-  if(!section.position) { // add position if not set
+  if (!section.position) {
+    // add position if not set
     section.position = questionnaire.sections.length;
   }
   questionnaire.sections.push(section);

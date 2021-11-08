@@ -1,5 +1,5 @@
 export interface JustFormsCore {
-  greet(name:string):string;
+  greet(name: string): string;
 }
 
 export class JustFormsCore {
