@@ -3,6 +3,5 @@ export class JfAnswerOption {
   customData = new Map();
 
   // OPTIONALS
-  rating?: number;
   position?: number;
 }
