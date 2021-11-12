@@ -5,7 +5,5 @@ export class JfSection {
   description: string = '';
   questions: JfQuestion[] = [];
   customData = new Map();
-
-  // OPTIONALS
-  position?: number;
+  position: number = 0;
 }
